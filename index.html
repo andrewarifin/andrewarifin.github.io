@@ -1,0 +1,39 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+---
+<div class="centered">
+  <h1 class="white-text">
+    andrew arifin
+  </h1>
+  <div class="row white-text">
+    <div class="col s6 center-text">
+      <a class="white-text" href="/images/resume.pdf">about me</a>
+    </div>
+    <div class="col s6 center-text">
+      <a class="white-text" href="https://www.instagram.com/arifinphotography/">photography</a>
+    </div>
+  </div>
+</div>
+<div class="slider fullscreen">
+  <ul class="slides">
+    <li>
+      <img src="/images/zakopane.jpg"> <!-- random image -->
+    </li>
+    <li>
+      <img src="/images/cinqueTerre1.jpg"> <!-- random image -->
+    </li>
+    <li>
+      <img src="/images/tetons2.jpg"> <!-- random image -->
+    </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slider({
+      indicators: false,
+      interval: 2000
+    });
+  });
+</script>
